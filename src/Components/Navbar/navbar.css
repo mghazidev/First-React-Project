@@ -1,0 +1,102 @@
+.Navbar-component {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff; 
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .nav-icons {
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-icons button {
+    cursor: pointer;
+    background-color: #400be0;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    width: 160px;
+    justify-content: center;
+    border: 0;
+  }
+
+  .nav-icons button:hover {
+    background-color: #400be9;
+    border: 0;
+} 
+
+
+  .nav-icons button i {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  .btn-1 {
+    font-size: 15px;
+    align-items: baseline;
+    font-weight: 500;
+  }
+  
+  .nav-icons i {
+    font-size: 20px;
+  }
+  
+  .nav-icons i:hover {
+    background-color: #400be9;
+  }
+  
+  .profile {
+    display: flex;
+}
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  
+  .search-bar {
+    display: flex;
+    margin: auto;
+    margin-left: 0;
+  }
+  
+  .search-bar input {
+    padding: 20px;
+    padding-right: 200px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: rgb(249, 248, 249);
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  span i {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  span i:hover{
+    color: #400be0;
+  }
+  
+  .search-bar input::placeholder {
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+  }

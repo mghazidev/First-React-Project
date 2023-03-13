@@ -1,0 +1,134 @@
+.Staff-component {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.staff-sec{
+    display: flex;
+    flex-wrap: wrap; 
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    justify-content: space-between;  
+    height: 100%;
+}
+
+  .staff {
+    flex-basis: 22%;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .staff .content {
+    display: flex;
+    border-radius: 15px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 228, 237);
+  }
+
+  .content i {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(98, 75, 192);
+    border-radius: 6px 15px 6px 15px;
+  }
+
+  .content h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .content span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .staff .content-1 {
+    display: flex;
+    border-radius: 15px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 231, 246);
+  }
+
+  .content-1 i {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(172, 75, 172);
+    border-radius: 6px 15px 6px 15px;
+  }
+
+  .content-1 h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .content-1 span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+
+  .staff .content-2 {
+    display: flex;
+    border-radius: 15px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 228, 237);
+  }
+
+  .content-2 i {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(98, 75, 192);
+    border-radius: 6px 15px 6px 15px;
+  }
+
+  .content-2 h1 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .content-2 span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+
+  .staff .content-3 {
+    display: flex;
+    border-radius: 15px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 199, 233);
+  }
+
+  .content-3 i {
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(255, 145, 94);
+    border-radius: 6px 15px 6px 15px;
+  }
+
+  .content-3 h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .content-3 span {
+    font-size: 25px;
+    font-weight: 700;
+  }

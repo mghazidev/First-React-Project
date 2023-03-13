@@ -1,0 +1,69 @@
+.calender-section {
+    width: 100%;
+    margin: auto;   
+}
+
+.calender {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .date  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .date i {
+    color: black;
+    font-size: 16px;
+  }
+
+  .date h2 {
+    font-size: 30px;
+  }
+
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 25px;
+  }
+
+  .week {
+    flex-basis: 10%;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .week h6{
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .week p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .active-1, .active-1 h6 {
+    color: #fff;
+    background-color: rgb(68, 151, 228);
+  }
+
+  .week:hover, .week h6:hover {
+    background-color: rgb(68, 151, 228);
+    color: #fff;
+  }

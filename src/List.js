@@ -7,7 +7,6 @@
 //         </div>
 //     )
 // }
-
 function List ({category}) {
     return(
         <div>

@@ -12,5 +12,4 @@ function Products({arr}) {
         </>
     );
 }
-
 export default Products
