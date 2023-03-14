@@ -53,6 +53,14 @@ body {
   margin: 0 auto;
 }
 
+.Db-section {
+  width: 70%;
+}
+
+.Schedule-section {
+  width: 30%;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

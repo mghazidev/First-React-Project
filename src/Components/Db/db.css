@@ -5,6 +5,7 @@
 
 .footer-sec {
     width: 100%;
+    margin-top: 10px;
 }
 
 .table-sec {
@@ -14,7 +15,7 @@
     background-color: #fff;
     overflow: auto;
     padding: 10px;
-    border-radius: 25px 25px 25px 0;
+    border-radius: 10px;
 }
 
 .db {

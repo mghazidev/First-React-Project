@@ -66,10 +66,10 @@ function App() {
             </div>
           </div>
           <div className='section'>
-            <div className='Teach-section'>
+            <div className='Db-section'>
               <Db />
             </div>
-            <div className='Course-section'>
+            <div className='Scheduke-section'>
               <Schedule />
             </div>
           </div>
