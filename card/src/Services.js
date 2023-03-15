@@ -15,7 +15,8 @@ function Services() {
             <div className='d-flex flex-wrap col-md-12 mx-auto '>
               {
                 Data.map((value, index) => {
-                  return <Card key={index}
+                  return <Card 
+                    key={index}
                     imgsrc = {value.imgsrc}
                     title = {value.title}
                   />
