@@ -1,0 +1,50 @@
+.skills-component {
+    width: 80%;
+    margin: auto;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex-basis: 50%;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+
+.name .icon {
+    color: purple;
+    background: transparent;
+}
+
+.category {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.category:hover {
+    background: teal;
+    color: #fff;
+}
+
+.category span {
+    display: none;
+}   
