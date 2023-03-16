@@ -1,0 +1,42 @@
+.nav-component {
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+.icon {
+    color: gold;
+    margin-right: 10px;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
