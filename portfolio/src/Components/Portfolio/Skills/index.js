@@ -1,9 +1,21 @@
 import './skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { Hover, Leave } from './Hover';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { useState } from "react";
+
 
 function Skills(props) {
+
+const [isHovering, Update] = useState(false);
+
+    function Hover() {
+        Update(true);
+    }
+
+    function Leave() {
+        Update(false);
+    }
+ 
     return (
         <>
             <div className='skills-component'>
@@ -20,10 +32,10 @@ function Skills(props) {
                             </div>
                             <div className='name'>
                                 <p>{props.para}</p>
-                                <FontAwesomeIcon icon={faArrowDown} className="icon"></FontAwesomeIcon>
+                                <FontAwesomeIcon icon={faAngleDown} className="icon"></FontAwesomeIcon>
                             </div>
                         </div>
-                        <span>{props.line}</span>
+                        {isHovering && <span>{props.line}</span>}
                     </div>
                 </div>
             </div>
