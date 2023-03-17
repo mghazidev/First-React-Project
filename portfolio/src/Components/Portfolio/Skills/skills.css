@@ -31,7 +31,7 @@
 }
 
 .name .icon {
-    color: purple;
+    color: teal;
     background: transparent;
 }
 
@@ -40,11 +40,12 @@
     border-radius: 10px;
     height: 30px;
     overflow: hidden;
+    border-bottom: 1px solid #ccc;
 }
 
 .category:hover {
-    background: teal;
-    color: #fff;
+    background: #d3e0e6;
+    color: #000;
     transition: 0.3s ease-in;
 }
 

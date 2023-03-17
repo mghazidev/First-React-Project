@@ -12,7 +12,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color: rgb(83, 161, 161);
 }
+
+.active {
+    color: teal;
+    border-bottom: 2px dashed teal;
+    transform: skewX(-20deg);
+  }
+  
+  .active::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: teal;
+    transform: skewX(-20deg);
+  }
 
 .wrapper {
     width: 100%;

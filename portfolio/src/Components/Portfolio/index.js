@@ -8,7 +8,7 @@ function Portfolio() {
         <div className='portfolio-component'>
             <div className='portfolio'>
                 <div className='headings'>
-                    <h3>My Skills</h3>
+                    <h3 className='active'>My Skills</h3>
                     <h3>Experience</h3>
                     <h3>Education</h3>
                 </div>
