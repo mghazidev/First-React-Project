@@ -1,7 +1,13 @@
 .hero-component {
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.contain {
     width: 90%;
     margin: auto;
-    margin-top: 20px;
+    height: 100vh;
 }
 
 .hero {
@@ -11,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
 }
 
 .col-1 {

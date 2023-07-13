@@ -1,17 +1,28 @@
 .nav-component {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 1px 2px 7px #ccc;
+}
+
+.component {
     width: 90%;
     margin: auto;
+    display: flex;
 }
 
 .navbar {
     width: 100%;
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
     align-items: center;
+    padding-bottom: 10px;
+    box-shadow: 10px #ccc;
 }
 
 .logo h1 {
@@ -32,6 +43,7 @@
 .menu ul li {
     list-style-type: none;
     margin-left: 20px;
+
 }
 
 .menu ul li a {
@@ -39,4 +51,5 @@
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    border-bottom: 0;
 }
