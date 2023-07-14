@@ -25,7 +25,7 @@ export default function Header() {
                     <li>Contact</li>
                 </ul>
                 {/* responsive */}
-                <ul className={`md:hidden duration-500 text-white text-center text-xl h-screen fixed bg-black top-[83px] w-full 
+                <ul className={`md:hidden duration-500 text-white text-center text-xl h-screen fixed bg-black opacity-70 top-[83px] w-full 
                 ${toggle ? 'left-[0]' : 'left-[-100%]'}`}>
                     <li className="mt-6 cursor-pointer">Home</li>
                     <li className="mt-6 cursor-pointer">About</li>

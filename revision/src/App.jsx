@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Details from "./components/Details";
 import Letter from "./components/Letter";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Details />
     <Letter />
     <Card />
+    <Footer />
   </>
   );
 }
