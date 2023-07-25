@@ -5,6 +5,7 @@ import UseRef from './useRef';
 import UseLayoutEffect from './useLayoutEffect';
 import ImperativeHandle from './useImperativeHandle';
 import ParentComponent from './useImperativeHandle';
+import Context from './useContext';
 import './App.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <UseRef /> */}
       {/* < UseLayoutEffect /> */}
       {/* <ImperativeHandle /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <Context />
       </>
   );
 }
